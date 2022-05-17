@@ -165,5 +165,17 @@ You should now be connected!
 
 You can also look at `\\FRST-IRSStor\Root\ByProject\__LABFORMS\IRSS Printers.docx` for instructions with screenshots.
 
+### Connect to the lab's network drives and printers from a non-lab computer {-#print-non-lab}
 
+You need to be connected to either (a) the university's VPN service (b) or to the ubcprivate WiFi network. To log into ubcprivate, use the username "{your CWL id}.frsc" and your CWL password.
+
+After that, you can connect to the printers like outlined above (?). To connect to the network drives, use 
+the following addresses:
+
+`\\frst-irsstor.ead.ubc.ca\Root\ByProject`
+`\\frst-irsstor.ead.ubc.ca\Root\ByUser`
+
+Make sure you tick `connect using different credentials` when mapping the drive. Then use `ead\<your_CWL_id>` and the CWL password for authentication. 
+
+Contact Felix Choi (felix.choi@ubc.ca) in case of any issues.
 
