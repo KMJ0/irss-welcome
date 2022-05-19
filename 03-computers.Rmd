@@ -165,7 +165,7 @@ You should now be connected!
 
 You can also look at `\\FRST-IRSStor\Root\ByProject\__LABFORMS\IRSS Printers.docx` for instructions with screenshots.
 
-## Connect to the lab's network drives and printers from a non-lab computer {-#print-non-lab}
+### Connect to the lab's network drives and printers from a non-lab computer {-#print-non-lab}
 
 You need to be connected to either (a) the university's VPN service (b) or to the ubcprivate WiFi network. To log into ubcprivate, use the username "{your CWL id}.frsc" and your CWL password.
 
