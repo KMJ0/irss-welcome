@@ -220,7 +220,7 @@ Nicholas typically funds 1 conference for MSc students and 2 conferences for PhD
 
 * [WHISPERS - Workshop on Hyperspectral Image and Signal Processing: Evolution in Remote Sensing (international)](https://www.ieee-whispers.com/)
 
-These conferences are a great opporunity to meet other scientists in your field, learn about their work, present your own, and make opportunities for collaboration.
+These conferences are a great opportunity to meet other scientists in your field, learn about their work, present your own, and make opportunities for collaboration.
 
 ```{r, echo=FALSE, out.width="75%",fig.align = 'center',fig.cap="Francois speaking at Silvilaser 2019 in Foz de Iguazu."}
 knitr::include_graphics("img\\conference3.jpg")
@@ -233,3 +233,5 @@ knitr::include_graphics("img\\conference2.jpg")
 ```{r, echo=FALSE, out.width="75%",fig.align = 'center',fig.cap="Sights to see at different conferences - Foz de Iguazu, Silvilaser 2019."}
 knitr::include_graphics("img\\conference1.jpg")
 ```
+
+During these conferences, you are typically eligible for a per diem (up to $60 USD per day). You should track the days you are away and submit an expense report to get reimbursed. To do so, visit the [workday portal](https://hr.ubc.ca/working-ubc/welcome-workday). From there, click on 'Expenses' in the main menu, and submit a report. If you have any other questions, you can email [Gladys Tecson](https://frm.forestry.ubc.ca/people/staff/) (`gladys.tecson@ubc.ca`). It takes a little while to be processed, but you will be reimbursed.
