@@ -118,12 +118,14 @@ knitr::include_graphics("img\\rdp.png")
 
 In the lab, we can use the Windows Remote Desktop Connection tool to connect to our machines when we are away from the lab. There are a few steps to follow in order to connect to your lab machine:
 
-1. Connect to a VPN. You should have Cisco AnyConnect installed on your work laptop, but it can also be downloaded from https://it.ubc.ca/services/email-voice-internet/myvpn/setup-documents. To log in, use your CWL.
+1. To connect from home, sign-up for an Enhanced CWL that uses multi-factor authentication. Typically, this involves authentication using the Duo app on your smartphone: https://knowit.ok.ubc.ca/article.php?id=974
+
+2. Connect to a VPN. You should have Cisco AnyConnect installed on your work laptop, but it can also be downloaded from https://it.ubc.ca/services/email-voice-internet/myvpn/setup-documents. When logging into the VPN, ensure that you are using `myvpn.ubc.ca`. Your CWL must be expressed as `YourCWL.frsc@app`. If your Enhanced CWL and VPN are setup correctly, you should receive a Duo login request on your smartphone. Approve this login request to complete the VPN connection. Additional information about logging in using an Enhanced CWL be found here: https://knowit.ok.ubc.ca/article/how-do-i-connect-to-vpn-with-enhanced-cwl-975.html
 
 
-2. Open the Remote Desktop Connection and enter your computer's name as follows: `frst-frm-22XYZ.ead.ubc.ca`, where `XYZ` are the digits/letter unique to your desktop (there will be a sticker on the top of your computer tower with these details).
+3. Open Remote Desktop Connection and enter your computer's name as follows: `frst-frm-22XYZ.ead.ubc.ca`, where `XYZ` are the digits/letter unique to your desktop (there will be a sticker on the top of your computer tower with these details). Enter your Remote Desktop Connection username as `EAD\YourCWL`.
 
-3. Click `connect`. You will be prompted to enter your CWL again. Alternatively, you can run the following command: `mstsc /v frst-frm-22XYZ.ead.ubc.ca`, and enter your CWL when promoted.
+4. Click `connect`. You will be prompted to enter your password.
 
 You have now successfully remoted in! 
 
@@ -135,13 +137,15 @@ The IRSS has both a black and white and colour printer available for use, locate
 
 1. [Install the HP Driver](https://support.hp.com/ca-en/drivers/selfservice/hp-color-laserjet-managed-e75245-printer-series/21158702). When the option appears, select `Connect later`.
 
-2. Open `Control Panel` then go under `Devices and Printers` and click `Add a printer`.
+2. [Download and extract the Xerox Driver](https://www.support.xerox.com/en-ca/product/global-printer-driver/downloads?language=en&platform=win10x64). Choose either the PostScript or PCL driver. Note the directory where the Xerox driver is located (e.g. `C:\Users\YourCWL\Downloads\ExtractedXeroxDriver`) 
 
-3. Click `The printer that I want isn't listed`.
+3. Open `Control Panel` then go under `Devices and Printers` and click `Add a printer`.
 
-4. Select `Add a printer using TCP/IP address of hostname` then click `Next`.
+4. Click `The printer that I want isn't listed`.
 
-5. Insert IP address of the printer (see IPs below). Append the `Port name` as shown then click `Next`.
+5. Select `Add a printer using TCP/IP address of hostname` then click `Next`.
+
+6. Insert IP address of the printer (see IPs below). Append the `Port name` as shown then click `Next`.
 
 ```
 HP Color LaserJet E75245
@@ -155,11 +159,11 @@ IP: 142.103.230.20
 knitr::include_graphics("img\\Printer_5.png")
 ```
 
-5. If a window appears that asks about driver version, select `Use the driver that is currently installed`.
+7. If a window appears that asks about driver version, select `Use the driver that is currently installed` for the HP colour printer. Manually select the Xerox driver that you extracted earlier (e.g. `C:\Users\YourCWL\Downloads\ExtractedXeroxDriver`).
 
-6. Keep the default printer name then click `Next`.
+8. Keep the default printer name then click `Next`.
 
-7. Make sure `Do not share this printer` is selected then click `Next`.
+9. Make sure `Do not share this printer` is selected then click `Next`.
 
 You should now be connected! 
 
