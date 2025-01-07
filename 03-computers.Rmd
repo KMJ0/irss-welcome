@@ -104,9 +104,9 @@ It's important that you **do not use IRSS shared drives as your file backup fold
 To map these drives to your machine do the following:
 
 1. Open File Explorer > right-click on `‘This PC’` (found in left side list) > click `‘map network drive’`
-2. Choose a letter (e.g. “Z”) and paste the following `\\FRST-IRSStor\Root\ByProject`
+2. Choose a letter (e.g. “Z”) and paste the following `\\FRST-IRSStor2\Root\ByProject`
 
-3. Repeat this process and assign a different letter (e.g. “Y”) to the second network folder: `\\FRST-IRSStor\Root\ByUser`
+3. Repeat this process and assign a different letter (e.g. “Y”) to the second network folder: `\\FRST-IRSStor2\Root\ByUser`
 
 These same steps are followed to add the backup server discussed [above](#backup).
 
@@ -120,7 +120,7 @@ In the lab, we can use the Windows Remote Desktop Connection tool to connect to 
 
 1. To connect from home, sign-up for an Enhanced CWL that uses multi-factor authentication. Typically, this involves authentication using the Duo app on your smartphone: https://knowit.ok.ubc.ca/article.php?id=974
 
-2. Connect to a VPN. You should have Cisco AnyConnect installed on your work laptop, but it can also be downloaded from https://it.ubc.ca/services/email-voice-internet/myvpn/setup-documents. When logging into the VPN, ensure that you are using `myvpn.ubc.ca`. Your CWL must be expressed as `YourCWL.frsc@app`. If your Enhanced CWL and VPN are setup correctly, you should receive a Duo login request on your smartphone. Approve this login request to complete the VPN connection. Additional information about logging in using an Enhanced CWL be found here: https://knowit.ok.ubc.ca/article/how-do-i-connect-to-vpn-with-enhanced-cwl-975.html
+2. Connect to a VPN. You should have Cisco AnyConnect installed on your work laptop, but it can also be downloaded from https://it.ubc.ca/services/email-voice-internet/myvpn/setup-documents. When logging into the VPN, ensure that you are using `myvpn.ubc.ca`. Your CWL must be expressed as `YourCWL@app`. If your Enhanced CWL and VPN are setup correctly, you should receive a Duo login request on your smartphone. Approve this login request to complete the VPN connection. Additional information about logging in using an Enhanced CWL be found here: https://knowit.ok.ubc.ca/article/how-do-i-connect-to-vpn-with-enhanced-cwl-975.html
 
 
 3. Open Remote Desktop Connection and enter your computer's name as follows: `frst-frm-22XYZ.ead.ubc.ca`, where `XYZ` are the digits/letter unique to your desktop (there will be a sticker on the top of your computer tower with these details). Enter your Remote Desktop Connection username as `EAD\YourCWL`.
